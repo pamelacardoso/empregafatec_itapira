@@ -1,0 +1,890 @@
+
+
+
+   
+
+.body { 
+	background-color:rgb(66, 13, 13);
+    position: relative;
+    width: auto;
+    height: 1400pt;
+    margin: 0px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+   
+
+   
+
+
+}
+
+.topo_1{ 
+/* Topo */
+
+
+position: absolute;
+width: 100%;
+height: 90px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+background: #A80532;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+.home{
+    /* Home */
+position: absolute;
+width: 441px;
+height: 37px;
+left: 58px;
+top: 30px;
+}
+.home2{
+    /* Home2 */
+
+
+position: absolute;
+width: 94px;
+height: 37px;
+left: 58px;
+top: 30px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+
+color: #FFFFFF;
+}
+.vestibular{
+    /* Vestibular Fatec */
+
+
+position: absolute;
+width: 215px;
+height: 37px;
+left: 171px;
+top: 30px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+
+color: #FFFFFF;
+}
+.siga{
+    position: absolute;
+    width: 94px;
+    height: 37px;
+    left: 405px;
+    top: 30px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+.redes{
+/* Redes_sociais */
+
+
+position: absolute;
+width: 210px;
+height: 70px;
+left: 536px;
+top: 21px;
+
+}
+.facebook{
+    /* facebook */
+
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 10px;
+top: 0px;
+
+background: url(img/facebook.png);
+}
+.linkedin{
+    /* facebook */
+
+
+position: absolute;
+width: 48px;
+height: 48.11px;
+left: 80px;
+top: 0px;
+
+background: url(img/linkedin.png);
+}
+
+.wpp{
+    /* wpp */
+
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 150px;
+top: 0px;
+
+background: url(img/wpp.png);
+}
+
+.cadastro{
+/* Cadastro */
+
+
+position:static;
+width:auto;
+height: 56px;
+right: 102px;
+top: 0px;
+
+
+}
+.cad_emp2_frame{
+/* cad_emp2_frame */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 280px;
+height: 46px;
+right: 309.04px;
+top: 20px;
+
+background: #FFFFFF;
+border: 2px solid #F4F0F0;
+border-radius: 80px;
+}
+.cad_emp2{
+/* cad_emp2 */
+
+
+position: absolute;
+width: 276.02px;
+height: 47px;
+right: 290.02px;
+top: 29px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #A80532;
+
+
+}
+
+.cad_aluno{
+/* cad_aluno */
+
+
+position: absolute;
+width: 276.02px;
+height: 47px;
+right: 2px;
+top: 29px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+.cad_aluno_frame{
+/* cad_aluno_frame */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 280px;
+height: 46px;
+right: 20px;
+top: 20px;
+
+border: 2px solid #F4F0F0;
+border-radius: 80px;
+}
+
+/* -------------------------------------------------------------------------------------------*/
+.topo_2
+{
+    /* topo_2 */
+
+
+position: absolute;
+width: 100%;
+height: 46px;
+left: 237px;
+top: 68pt;
+
+background: #333333;
+
+}
+.cursos{
+    /* cursos */
+
+
+position: absolute;
+width: 81px;
+height: 29px;
+left: 35px;
+top: 9px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+.documentos{
+    /* documentos */
+
+
+position: absolute;
+width: 145px;
+height: 29px;
+left: 140px;
+top: 9px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+.estagio{
+    /* estagio */
+
+
+position: absolute;
+width: 83px;
+height: 29px;
+left: 309px;
+top: 9px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+
+.vaga_emprego{
+    /* vaga_emprego */
+
+
+position: absolute;
+width: 211px;
+height: 29px;
+left: 416px;
+top: 9px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.login{
+    /* login */
+
+
+position: absolute;
+width: 85.84px;
+height: 38.96px;
+right: 187pt;
+top: 10px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.login_frame{
+    /* login_frame */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 87.08px;
+height: 38.13px;
+right: 195pt;
+top: 4px;
+
+border: 2px solid #F4F0F0;
+border-radius: 80px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+.logo{
+    /* logo */
+
+
+position: absolute;
+width: 237px;
+height: 136px;
+left: 0pt;
+top: 90px;
+
+background-image: url(/img/logo.png);}
+/*----------------------------------------------------------------------------------------------------*/
+.topo_3{
+    /* topo_3 */
+
+
+position: absolute;
+width: 100%;
+height: 90px;
+left: 178pt;
+right: 0px;
+top: 136px;
+
+background: rgba(48, 48, 48, 0.9);
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+}
+
+.cargo{
+    /* cargo */
+
+
+position: absolute;
+width: 348pt;
+height: 34px;
+right: 340pt;
+top: 33px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+
+color: #A80532;
+}
+.cargo_frame{
+    /* cargo_frame */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 550pt;
+height: 46px;
+right: 195pt;
+top: 25px;
+
+background: #FFFFFF;
+border: 2px solid #F4F0F0;
+border-radius: 80px;
+}
+
+.lupa{
+    /* lupa */
+
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 10pt;
+top: 2px;
+
+background-image: url(/img/lupa.png);
+}
+
+.body2{
+    /* body2 */
+
+
+position: absolute;
+width: 2000px;
+height: 100%;
+left: 0px;
+top: 169pt;
+
+background: #F7EEEE;
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+}
+.i-fig01{
+    /* figura02 1 */
+
+
+position: absolute;
+width: 815px;
+height: 504px;
+
+
+
+background: url(img/i-fig01.png);
+}
+
+.i-text{
+    /* Conectamos alunos e empresas */
+
+
+    position: absolute;
+    width: 455px;
+    height: 124px;
+    left: 885px;
+    top: 85px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 62px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.i-text2{
+    /* Aprimoramos o processo de recrutamento e seleção com intuito de promover uma experiência positiva */
+
+
+    position: absolute;
+    width: 431px;
+    height: 144px;
+    left: 891px;
+    top: 252px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.i-text3{
+    /* Oportunidades. Mais rápido, mais simples e mais perto de você. */
+
+
+position: absolute;
+width: 839px;
+height: 104px;
+left: 46px;
+top: 615px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 52px;
+text-align: center;
+
+color: #000000;
+}
+
+.i-text4{
+    /* Desde a nossa fundação, conectamos indivíduos e empresas oferecendo uma infinidade de opções. Nesta era de busca, onde a informação está disponível a qualquer hora e em qualquer lugar, precisamos nos concentrar mais em propor a escolha ideal. Buscamos oferecer “Oportunidades para a Vida” muito mais rápido, surpreendentemente mais simples e mais próximo do que nunca. */
+
+
+position: absolute;
+width: 859px;
+height: 174px;
+left: 46px;
+top: 737px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+.i-fig03{
+    /* figura24 1 */
+
+
+position: absolute;
+width: 340px;
+height: 542px;
+left: 976px;
+top: 627px;
+
+background: url(img/i-fig03.png);
+}
+.i-fig02{
+    /* figura09 1 */
+
+
+position: absolute;
+width: 864px;
+height: 237px;
+left: 58px;
+top: 945px;
+
+background: url(img/i-fig02.png);
+}
+.i-fig04{
+    /* figura26 1 */
+
+
+position: absolute;
+width: 654px;
+height: 418px;
+left: 30px;
+top: 1343px;
+
+background: url(img/i-fig04.png);
+}
+
+.i-text5{
+    /* De dentro para fora */
+
+
+    position: absolute;
+    width: 504px;
+    height: 52px;
+    left: 812px;
+    top: 1382px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    /* identical to box height */
+    
+    text-align: right;
+    
+    color: #000000;
+
+}
+
+.i-text6{
+    /* De dentro para fora é onde contamos histórias e compartilhamos conteúdos que não podem ser transmitidas apenas por números. */
+
+
+position: absolute;
+width: 622px;
+height: 87px;
+left: 694px;
+top: 1505px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+text-align: right;
+
+color: #000000;
+}
+
+.i-text7{
+    /* clique aqui e aproveite o momento */
+
+
+position: absolute;
+width: 400px;
+height: 46px;
+left: 916px;
+top: 1681px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 29px;
+text-align: right;
+
+color: #000000;
+
+}
+
+.final{
+    /* topo_3 */
+
+
+position: absolute;
+width: 100%;
+height: 90px;
+left: 0px;
+top: 1780px;
+
+background: rgba(48, 48, 48, 0.9);
+backdrop-filter: blur(1px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+}
+
+/*----------------------------------------------DOCUMENTOS------------------------------------------*/
+
+.e-titulo{
+    /* t_estagios */
+
+
+    position: absolute;
+    width: 583px;
+    height: 54px;
+    left: 419px;
+    top: 48px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.e-fig01{
+    /* image 18 */
+
+    position: absolute;
+    width: 155px;
+    height: 164px;
+    left: 96px;
+    top: 90px;
+    
+
+background: url(img/e-fig01.png);
+}
+.e-fig02{
+    /* image 19 */
+
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 804px;
+top: 208px;
+
+background: url(img/e-fig02.png)
+}
+.e-fig03{
+    /* image 20 */
+
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 879px;
+top: 510px;
+
+background: url(img/e-fig03.png);
+}
+.e-fig04{
+    /* Vector 2 */
+
+
+position: absolute;
+width: 792px;
+height: 411px;
+left: 153px;
+top: 159px;
+
+opacity: 0.3;
+border: 15px solid #000000;
+backdrop-filter: blur(4px);
+background: url(img/e-fig04.png);
+/* Note: backdrop-filter has minimal browser support */
+}
+.e-text01{
+    /* O estágio é um passo muito importante, é onde se conecta a experiência universitária a profissional. */
+
+
+position: absolute;
+width: 450px;
+height: 166px;
+left: 210px;
+top: 199px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+.e-text02{
+    /* Um estágio pode oferecer oportunidades únicas de aprendizado fora dos ambientes acadêmicos. */
+
+
+position: absolute;
+width: 448px;
+height: 152px;
+left: 940px;
+top: 184px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+
+.e-text03{
+    /* O que é Estágio? */
+
+
+    position: absolute;
+    width: 619px;
+    height: 90px;
+    left: 41px;
+    top: 380px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.e-text04{
+    /* Obter experiência de trabalho é um aspecto essencial para iniciar sua carreira profissional */
+
+
+    position: absolute;
+    width: 440px;
+    height: 108px;
+    left: 408px;
+    top: 605px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+.e-text05{
+    /* Os requisitos para a realização de um estágio */
+
+
+position: absolute;
+width: 967px;
+height: 54px;
+left: 204px;
+top: 769px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.e-text06{
+    position: absolute;
+width: 1078px;
+height: 648px;
+left: 181px;
+top: 923px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.e-botao{
+    /* ENCONTRE AQUI VAGAS DE ESTÁGIOS */
+
+
+position: absolute;
+width: 753px;
+height: 36px;
+left: 299px;
+top: 1630px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.e-botaof{
+    /* Rectangle 4 */
+
+
+position: absolute;
+width: 869px;
+height: 114px;
+left: 253px;
+top: 1620px;
+
+background: #F59595;
+border-radius: 50px;
+}
+
+
+
+
+
