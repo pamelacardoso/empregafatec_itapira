@@ -2022,3 +2022,15 @@ text-align: center;
 color: #F4F0F0;
 
 }
+.llogin10{
+    /* Rectangle 24 mascara*/
+
+
+    position: absolute;
+    width: 643px;
+    height: 670px;
+    left: 797px;
+    top: -2px;
+    
+    background: rgba(3, 3, 3, 0.8);
+}
