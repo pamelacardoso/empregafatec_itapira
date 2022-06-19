@@ -6,6 +6,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="format/bootstrap.min.css">
+        <script src="format/bootstrap.min.js"></script>
     </head>
     <STYLE>A {text-decoration: none; color: inherit;}  </STYLE>
     <body class="body">
@@ -28,8 +30,8 @@
             <div class="cadastro">
                 <a class="cad_emp2_frame" href="cadastro_empresa.html"></a>
                 <a class="cad_emp2" href="cadastro_empresa.html">Cadastre sua empresa</a>                      
-                <a class="cad_aluno" href="index.html"> Cadastre seu currículo </a>
-                <a class="cad_aluno_frame" href="index.html"> </a>
+                <a class="cad_aluno" href="cadastro_currículo.html"> Cadastre seu currículo </a>
+                <a class="cad_aluno_frame" href="cadastro_currículo.html"> </a>
             </div>      
         <div class="topo_2">
             <a class="cursos" href="https://www.fatecitapira.edu.br/#dsm" target="_blank">Cursos</a>
@@ -46,23 +48,232 @@
         <a href="index.html" class="cargo">Digite um cargo ou empresa</a>
         </div>
 
-        <div class="body2">
+        <div class="body3">
 
-        <form action="pagina html" method="post" enctype="multipart/form-data"></form>
-        
-        <p class="t_titulo"> <b><u>Cadastre seu currículo</b></u> </p>
-        <p class="t_dados"><u>Dados pessoais</u></p> <br>
-        <br>
-        <br>
-        <label for="nome" class="t_nome">Nome</label>
-        <input type="text" name="nome" id="nome" class="t_nome_cx" style="font-size: 13pt;"><br>
-        <br>
-        
-        <label for="cpf" class="t_cpf">CPF</label>
-        <input type="number" name="cpf" id="cpf" class="t_cpf_cx" style="font-size: 13pt;" placeholder="000.000.000-00"> <br>
+            <div class="container ">
+                <form action="pagina html" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+                    <h1> <b><u>Cadastre seu currículo</b></u></h1>
+                    <h3>Dados Pessoais</h3>
+                    <p>Todos os campos com * são obrigatórios</p>
+                    <div class="form-row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Nome</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">CPF</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="CPF" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Estado Cívil</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Estado Cívil" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">E-Mail</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="E-mail" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-5 col-form-label col-form-label-lg">Com qual identidade de Gênero você se identifica?</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Gênero" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-3 col-form-label col-form-label-lg">Data de Nascimento</label>
+                        <div class="col-md-3 mb-3">
+                            <input type="date" class="form-control" id="validationCustom02" placeholder="Data de Nascimento" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Possui Filhos</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="number" class="form-control" id="validationCustom02" placeholder="Quantidade" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
 
-        <label for="t_estado" class="t_estado">Estado Civil</label>
-        <input type="text" name="t_estado" id="t_estado" class="t_estado_cx" style="font-size: 13pt;"> <br>
+
+                    <h3>Endereço</h3><br />
+                    <div class="row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">CEP</label>
+                        <div class="col-md-10 mb-3">
+                            <input type="text" class="form-control" id="validationCustom05" placeholder="Cep" required>
+                            <div class="invalid-feedback">
+                                Digite um cep válido.
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Endereço</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Endereço" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Bairro</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="bairro" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Estado</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Estado" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Cidade</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="cidade" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">País</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="pais" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Contato</h3><br />
+                    <div class="form-row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Telefone</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="telefone" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Celular</label>
+                        <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="celular" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Redes Sociais</h3><br />
+                    <div class="form-row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Likedin</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="likedin" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Blog Pessoal</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="blog" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Preenchimento do curriculo</h3><br />
+                    <div class="form-row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Objetivos</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Objetivos" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Cargo Desejado</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Cargo desejado" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Área de Interesse</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Área de Interesses" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Pretenção Salarial</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Pretenção Salarial" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Resumo Profissional</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Nível de Escolaridade</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Cursos Complementares</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Idiomas</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Histórico Profissional</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Informações Complementares</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                    </div>
+
+                        
+
+                       
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Eu aceito as condições de uso.
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+
+                <script>
+                    
+                    (function () {
+                        'use strict';
+                        window.addEventListener('load', function () {
+                            
+                            var forms = document.getElementsByClassName('needs-validation');
+                            
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                                form.addEventListener('submit', function (event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
+            </div>
  
 
 
