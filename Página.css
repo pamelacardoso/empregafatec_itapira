@@ -444,6 +444,21 @@ background: #F7EEEE;
 backdrop-filter: blur(4px);
 /* Note: backdrop-filter has minimal browser support */
 }
+
+.body3{
+    /* body3 */
+
+
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 169pt;
+
+background: #F7EEEE;
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+}
 .i-fig01{
     /* figura02 1 */
 
