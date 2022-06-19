@@ -1742,3 +1742,283 @@ line-height: 32px;
 color: #000000;
 
 }
+/*--------------------------------------LOGIN----------------------------------------------------------*/
+.lt01{
+    /* SEJA BEM-VINDO!! */
+
+    position: absolute;
+    width: 432px;
+    height: 41px;
+    left: 33px;
+    top: 27px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    
+    color: #000000;
+}
+.lt02{
+    /* SELECIONE SEU TIPO DE LOGIN: */
+
+
+position: absolute;
+width: 627px;
+height: 63px;
+left: 68px;
+top: 146px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 45px;
+
+color: #000000;
+
+}
+.lfig01{
+    /* image 31 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 199.24px;
+    left: 13px;
+    top: 267px;
+    
+    background: url(image.png);
+    border: 3px solid rgba(0, 0, 0, 0.3);
+}
+.lfig02{
+/* image 32 */
+
+
+position: absolute;
+width: 200px;
+height: 195px;
+left: 254px;
+top: 271px;
+
+background: url(image.png);
+border: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+.lfig03{
+    /* image 33 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 191px;
+    left: 495px;
+    top: 273px;
+    
+    background: url(image.png);
+    border: 3px solid rgba(0, 0, 0, 0.3);
+}
+.lt03{
+/* ALUNO */
+
+
+position: absolute;
+width: 105px;
+height: 34px;
+left: 60px;
+top: 480px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.lt04{
+/* FATEC */
+
+
+position: absolute;
+width: 93px;
+height: 34px;
+left: 307px;
+top: 480px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.lt05{
+/* EMPRESA */
+
+
+position: absolute;
+width: 133px;
+height: 34px;
+left: 528px;
+top: 480px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+.llogin01{
+/* Rectangle 21 */
+
+
+position: absolute;
+width: 638px;
+height: 665px;
+left: 797px;
+top: 1px;
+
+background: #E72E61;
+}
+.llogin02{
+    /* image 30 */
+
+
+position: absolute;
+width: 638px;
+height: 205px;
+left: 797px;
+top: 1px;
+
+
+}
+.llogin03{
+    /* E-mail */
+
+
+    position: absolute;
+    width: 147px;
+    height: 38px;
+    left: 874px;
+    top: 247px;
+    
+    font-family: 'Ovo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.llogin04{
+    /* Rectangle 15 */
+
+
+    position: absolute;
+    width: 478px;
+    height: 54px;
+    left: 874px;
+    top: 320px;
+    
+    background: #F59595;
+    border-radius: 50px;
+}
+.llogin05{
+/* Senha */
+
+
+position: absolute;
+width: 135px;
+height: 38px;
+left: 874px;
+top: 367px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 39px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.llogin06{
+    /* Rectangle 22 */
+
+
+position: absolute;
+width: 478px;
+height: 53px;
+left: 874px;
+top: 441px;
+
+background: #F59595;
+border-radius: 50px;
+}
+.llogin07{
+    /* Esqueci minha senha */
+
+
+position: absolute;
+width: 199px;
+height: 31px;
+left: 877px;
+top: 475px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.llogin08{
+    /* Rectangle 23 */
+
+
+position: absolute;
+width: 231px;
+height: 64px;
+left: 1004px;
+top: 564px;
+
+background: #F59595;
+border-radius: 50px;
+}
+.llogin09{
+    /* Entrar */
+
+
+position: absolute;
+width: 147px;
+height: 25px;
+left: 1039px;
+top: 541px;
+
+font-family: 'Ovo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 39px;
+text-align: center;
+
+color: #F4F0F0;
+
+}
